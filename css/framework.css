@@ -80,7 +80,7 @@
 .pb-20 {
   padding-bottom: 20px;
 }
-.pl-15{
+.pl-15 {
   padding-left: 15px;
 }
 /* End Padding */
@@ -103,6 +103,9 @@
 }
 .mt-20 {
   margin-top: 20px;
+}
+.mt-25 {
+  margin-top: 25px;
 }
 .mr-10 {
   margin-right: 10px;
