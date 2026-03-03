@@ -2,10 +2,10 @@
 
 This is a modern, responsive Admin Dashboard built as a front-end practice project.
 The project focuses on layout architecture, utility-based CSS framework design, and scalable UI structure.
-
 Unlike previous templates, this project introduces a custom utility framework built from scratch, inspired by modern CSS systems like Bootstrap and Tailwind.
 
-🛠 Built With
+# 🛠 Built With
+
 ✔️ HTML
 
 ✔️ CSS
@@ -13,6 +13,7 @@ Unlike previous templates, this project introduces a custom utility framework bu
 ✔️ Custom Utility Framework (Built From Scratch)
 
 ---
+
 ## 🎯 Key Features & Concepts Practiced
 
 ✔️ Semantic HTML structure for clean layout organization.
