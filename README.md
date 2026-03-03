@@ -13,16 +13,27 @@ Unlike previous templates, this project introduces a custom utility framework bu
 ## 🎯 Key Features & Concepts Practiced
 
 ✔️ Semantic HTML structure for clean layout organization.
+
 ✔️ Fully responsive Admin Dashboard layout.
+
 ✔️ Custom-built CSS Utility Framework (spacing, display, colors, typography).
+
 ✔️ Flexbox-based layout system for structural alignment.
+
 ✔️ Responsive utilities using organized media query layers.
+
 ✔️ Sidebar Navigation with collapsible mobile behavior.
+
 ✔️ Fixed-width icons using Font Awesome (fa-fw) for clean alignment.
+
 ✔️ Timeline / Progress component using CSS pseudo-elements.
+
 ✔️ Animated UI feedback using CSS keyframes.
+
 ✔️ Reusable utility classes for scalable design system thinking.
+
 ✔️ Clean component separation between framework.css and master.css.
+
 ✔️ Organized project structure for maintainability.
 
 ---
@@ -60,6 +71,7 @@ Template-4-Dashboard/
 **Mohamed Kandil**
 
 🔗 GitHub: https://github.com/MKandil4
+
 🔗 LinkedIn: https://www.linkedin.com/in/mkandil4
 
 ----
