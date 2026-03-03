@@ -9,9 +9,7 @@ Unlike previous templates, this project introduces a custom utility framework bu
 ✔️ HTML
 ✔️ CSS
 ✔️ Custom Utility Framework (Built From Scratch)
-
 ---
-
 ## 🎯 Key Features & Concepts Practiced
 
 ✔️ Semantic HTML structure for clean layout organization.
