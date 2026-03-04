@@ -287,10 +287,21 @@ ul m-0
 li > span circle
 
 > div > p
-span
+> span
 
 ## 11- Box Post
 
 ## 12- Box Social Media
 
+box => padding-left 70px
+
 ## 13- Box Projects - table
+
+.responsive-table => over-flow-x: auto
+table => min-width: 1000px
+image =>
+width + height 32px
+raduis 50%
+padding 2px
+background-color white
+image not first child => margin left -20px
