@@ -298,7 +298,10 @@ box => padding-left 70px
 ## 13- Box Projects - table
 
 .responsive-table => over-flow-x: auto
-table => min-width: 1000px
+table =>
+full-width: 100%
+min-width: 1000px
+
 image =>
 width + height 32px
 raduis 50%
