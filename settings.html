@@ -22,24 +22,26 @@
     <!-- Master Css -->
     <title>Kandil | Dashboard</title>
   </head>
+
   <body>
     <div class="page d-flex">
+      <!-- Start Sidebar -->
       <div class="sidebar bg-white p-20 p-relative">
-        <h3 class="p-relative txt-center mt-0">Kandil</h3>
+        <h3 class="m-0 txt-center p-relative">Kandil</h3>
         <ul>
           <li>
             <a
-              class="active d-flex align-center c-black fs-14 radius-6 p-10"
+              class="d-flex align-center fs-14 c-black radius-6 p-10 mb-10"
               href="index.html"
             >
               <i class="fa-regular fa-chart-bar fa-fw"></i>
-              <span class="hide-mobile">Dashboard</span>
+              <span class="">Dashboard</span>
             </a>
           </li>
 
           <li>
             <a
-              class="d-flex align-center c-black fs-14 radius-6 p-10"
+              class="active d-flex align-center c-black fs-14 radius-6 p-10"
               href="settings.html"
             >
               <i class="fa-solid fa-gear fa-fw"></i>
@@ -108,10 +110,14 @@
           </li>
         </ul>
       </div>
-      <div class="content full-width">
+      <!-- End Sidebar -->
+
+      <!-- Start Content -->
+      <div class="content w-full">
+        <!-- Start Head -->
         <div class="head bg-white p-15 flex-between">
           <div class="search p-relative">
-            <input type="search" placeholder="Type A Keyword" />
+            <input class="p-10" type="search" placeholder="Type A Keyword" />
           </div>
           <div class="icons d-flex align-center">
             <span class="notification p-relative">
@@ -120,9 +126,76 @@
             <img src="images/avatar.png" alt="avatar image" />
           </div>
         </div>
-        <h1 class="p-relative">Settings</h1>
+        <!-- End Head -->
 
+        <!-- Start Heading -->
+        <h1 class="p-relative">Settings</h1>
+        <!-- End Heading -->
+
+        <!-- Start Wrapper -->
+        <div class="wrapper d-grid gap-20">
+          <!-- Start  Box Site Control -->
+          <div class="site-control p-20 bg-white radius-10">
+            <h2 class="mt-0 mb-10">Site Control</h2>
+            <p class="mt-0 mb-20 c-grey fs-15">
+              Control The Website If There Is Maintenance
+            </p>
+            <h4 class="mt-0 mb-10">Website Control</h4>
+            <p class="mt-0 mb-20 c-grey fs-15">
+              Open/Close Website And Type The Reason
+            </p>
+
+            <label>
+              <input class="toggle-checkbox" type="checkbox" />
+              <div class="toggle-switch"></div>
+            </label>
+          </div>
+          <!-- End  Box Site Control -->
+
+          <!-- Start General Info -->
+          <!-- <div class="general-info p-20 bg-white radius-10">
+            <h2 class="mt-0 mb-10">General Info</h2>
+            <p class="mt-0 mb-20 c-grey fs-15">
+              General Information About Your Account
+            </p>
+          </div> -->
+          <!-- End General Info -->
+
+          <!-- Start Security Info -->
+          <!-- <div class="security-info p-20 bg-white radius-10">
+            <h2 class="mt-0 mb-10">Security Info</h2>
+            <p class="mt-0 mb-20 c-grey fs-15">
+              Security Information About Your Account
+            </p>
+          </div> -->
+          <!-- End Security Info -->
+
+          <!-- Start Social Info -->
+          <!-- <div class="social-info p-20 bg-white radius-10">
+            <h2 class="mt-0 mb-10">Social Info</h2>
+            <p class="mt-0 mb-20 c-grey fs-15">Social Media Information</p>
+          </div> -->
+          <!-- End Social Info -->
+
+          <!-- Start Widgets Control -->
+          <!-- <div class="widgets-control p-20 bg-white radius-10">
+            <h2 class="mt-0 mb-10">Widgets Control</h2>
+            <p class="mt-0 mb-20 c-grey fs-15">Social Media Information</p>
+          </div> -->
+          <!-- End Widgets Control -->
+
+          <!-- Start Backup Manager -->
+          <!-- <div class="backup-manager p-20 bg-white radius-10">
+            <h2 class="mt-0 mb-10">Backup Manager</h2>
+            <p class="mt-0 mb-20 c-grey fs-15">
+              Control Backup Time And Location
+            </p>
+          </div> -->
+          <!-- End Backup Manager -->
+        </div>
+        <!-- End Wrapper -->
       </div>
+      <!-- End Content -->
     </div>
   </body>
 </html>

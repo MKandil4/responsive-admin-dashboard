@@ -551,3 +551,46 @@ ul {
 }
 /* End Projects - table  */
 /* End Wrapper */
+/* Start Dashboard Page */
+/* End Dashboard Page */
+
+/* Start Settings Page */
+/* Start Site Control */
+.toggle-checkbox {
+  appearance: none;
+}
+.toggle-switch {
+  background-color: #ddd;
+  width: 78px;
+  height: 32px;
+  border-radius: 16px;
+  position: relative;
+  cursor: pointer;
+}
+.toggle-switch::before {
+  content: "\f00d";
+  position: absolute;
+  font-weight: 900;
+  font-family: var(--fa-family-classic);
+  background-color: white;
+  color: #eee;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  top: 4px;
+  left: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+.toggle-checkbox:checked + .toggle-switch {
+  background-color: var(--blue-color);
+}
+.toggle-checkbox:checked + .toggle-switch::before {
+  left: 50px;
+  content: "\f00c";
+  color: var(--blue-color);
+}
+/* End Site Control */
+/* End Settings Page */
