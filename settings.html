@@ -137,60 +137,102 @@
           <!-- Start  Box Site Control -->
           <div class="site-control p-20 bg-white radius-10">
             <h2 class="mt-0 mb-10">Site Control</h2>
-            <p class="mt-0 mb-20 c-grey fs-15">
+            <p class="mt-0 mb-20 c-grey fs-13">
               Control The Website If There Is Maintenance
             </p>
-            <h4 class="mt-0 mb-10">Website Control</h4>
-            <p class="mt-0 mb-20 c-grey fs-15">
-              Open/Close Website And Type The Reason
-            </p>
+            <div class="d-flex flex-between mb-20">
+              <div class="web-control">
+                <h4 class="mt-0 mb-10">Website Control</h4>
+                <p class="mt-0 mb-20 c-grey fs-13">
+                  Open/Close Website And Type The Reason
+                </p>
+              </div>
 
-            <label>
-              <input class="toggle-checkbox" type="checkbox" />
-              <div class="toggle-switch"></div>
-            </label>
+              <label for="toggle">
+                <input type="checkbox" id="toggle" class="toggle-checkbox" />
+                <div class="toggle-switch"></div>
+              </label>
+            </div>
+
+            <textarea placeholder="Close Message Content"></textarea>
           </div>
           <!-- End  Box Site Control -->
 
           <!-- Start General Info -->
-          <!-- <div class="general-info p-20 bg-white radius-10">
+          <div class="general-info p-20 bg-white radius-10">
             <h2 class="mt-0 mb-10">General Info</h2>
             <p class="mt-0 mb-20 c-grey fs-15">
               General Information About Your Account
             </p>
-          </div> -->
+            <form>
+              <div>
+                <label class="d-block mb-10 fs-13 fw-bold c-grey"
+                  >First Name
+                </label>
+                <input
+                  class="d-block w-full radius-6 p-10"
+                  type="text"
+                  placeholder="First Name"
+                />
+              </div>
+              <div>
+                <label class="d-block mb-10 fs-13 fw-bold c-grey"
+                  >Last Name
+                </label>
+                <input
+                  class="d-block w-full radius-6 p-10"
+                  type="text"
+                  placeholder="Last Name"
+                />
+              </div>
+              <div>
+                <label class="d-block mb-10 fs-13 fw-bold c-grey"
+                  >Last Name
+                </label>
+                <div class="flex-between">
+                  <input
+                    class="d-block w-full radius-6 p-10"
+                    type="email"
+                    placeholder="m@k.sa"
+                    disabled
+                  />
+                  <a href="#" class="c-blue mb-20 ml-10">Change</a>
+                </div>
+              </div>
+            </form>
+          </div>
           <!-- End General Info -->
 
           <!-- Start Security Info -->
-          <!-- <div class="security-info p-20 bg-white radius-10">
+          <div class="security-info p-20 bg-white radius-10">
             <h2 class="mt-0 mb-10">Security Info</h2>
             <p class="mt-0 mb-20 c-grey fs-15">
               Security Information About Your Account
             </p>
-          </div> -->
+          </div>
           <!-- End Security Info -->
 
           <!-- Start Social Info -->
-          <!-- <div class="social-info p-20 bg-white radius-10">
+          <div class="social-info p-20 bg-white radius-10">
             <h2 class="mt-0 mb-10">Social Info</h2>
             <p class="mt-0 mb-20 c-grey fs-15">Social Media Information</p>
-          </div> -->
+          </div>
           <!-- End Social Info -->
 
           <!-- Start Widgets Control -->
-          <!-- <div class="widgets-control p-20 bg-white radius-10">
+          <div class="widgets-control p-20 bg-white radius-10">
             <h2 class="mt-0 mb-10">Widgets Control</h2>
             <p class="mt-0 mb-20 c-grey fs-15">Social Media Information</p>
-          </div> -->
+          </div>
           <!-- End Widgets Control -->
 
           <!-- Start Backup Manager -->
-          <!-- <div class="backup-manager p-20 bg-white radius-10">
+          <div class="backup-manager p-20 bg-white radius-10">
             <h2 class="mt-0 mb-10">Backup Manager</h2>
             <p class="mt-0 mb-20 c-grey fs-15">
               Control Backup Time And Location
             </p>
-          </div> -->
+          </div>
           <!-- End Backup Manager -->
         </div>
         <!-- End Wrapper -->

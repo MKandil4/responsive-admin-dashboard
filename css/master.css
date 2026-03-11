@@ -592,5 +592,26 @@ ul {
   content: "\f00c";
   color: var(--blue-color);
 }
+.site-control textarea {
+  resize: none;
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: #ddd;
+  caret-color: var(--blue-color);
+}
 /* End Site Control */
+/* Start General Info */
+
+.general-info form input {
+  margin-bottom: 20px;
+  outline: none;
+  border: 1px solid #ddd;
+}
+.general-info form input:focus {
+  outline: none;
+}
+
+/* End General Info */
 /* End Settings Page */
