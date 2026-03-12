@@ -137,21 +137,24 @@
           <!-- Start  Box Site Control -->
           <div class="site-control p-20 bg-white radius-10">
             <h2 class="mt-0 mb-10">Site Control</h2>
-            <p class="mt-0 mb-20 c-grey fs-13">
+            <p class="mt-0 mb-20 c-grey fs-15">
               Control The Website If There Is Maintenance
             </p>
-            <div class="d-flex flex-between mb-20">
+
+            <div class="flex-between mb-15">
               <div class="web-control">
-                <h4 class="mt-0 mb-10">Website Control</h4>
-                <p class="mt-0 mb-20 c-grey fs-13">
+                <span class="mt-0 mb-10">Website Control</span>
+                <p class="mt-5 mb-0 c-grey fs-13">
                   Open/Close Website And Type The Reason
                 </p>
               </div>
 
-              <label for="toggle">
-                <input type="checkbox" id="toggle" class="toggle-checkbox" />
-                <div class="toggle-switch"></div>
-              </label>
+              <div>
+                <label for="toggle">
+                  <input type="checkbox" id="toggle" class="toggle-checkbox" />
+                  <div class="toggle-switch"></div>
+                </label>
+              </div>
             </div>
 
             <textarea placeholder="Close Message Content"></textarea>
@@ -164,42 +167,42 @@
             <p class="mt-0 mb-20 c-grey fs-15">
               General Information About Your Account
             </p>
-            <form>
-              <div>
-                <label class="d-block mb-10 fs-13 fw-bold c-grey"
-                  >First Name
-                </label>
-                <input
-                  class="d-block w-full radius-6 p-10"
-                  type="text"
-                  placeholder="First Name"
-                />
-              </div>
-              <div>
-                <label class="d-block mb-10 fs-13 fw-bold c-grey"
-                  >Last Name
-                </label>
-                <input
-                  class="d-block w-full radius-6 p-10"
-                  type="text"
-                  placeholder="Last Name"
-                />
-              </div>
-              <div>
-                <label class="d-block mb-10 fs-13 fw-bold c-grey"
-                  >Last Name
-                </label>
-                <div class="flex-between">
-                  <input
-                    class="d-block w-full radius-6 p-10"
-                    type="email"
-                    placeholder="m@k.sa"
-                    disabled
-                  />
-                  <a href="#" class="c-blue mb-20 ml-10">Change</a>
-                </div>
-              </div>
-            </form>
+
+            <div class="mb-15">
+              <label for="fname" class="d-block mb-5 fs-14 c-grey"
+                >First Name</label
+              >
+              <input
+                type="text"
+                id="fname"
+                class="d-block w-full radius-6 p-10 border-ccc"
+                placeholder="First Name"
+              />
+            </div>
+
+            <div class="mb-15">
+              <label for="lname" class="d-block mb-5 fs-14 c-grey"
+                >Last Name</label
+              >
+              <input
+                type="text"
+                id="lname"
+                class="d-block w-full radius-6 p-10 border-ccc"
+                placeholder="Last Name"
+              />
+            </div>
+
+            <div>
+              <label for="email" class="d-block mb-5 fs-14 c-grey">Email</label>
+              <input
+                type="email"
+                id="email"
+                class="email radius-6 p-10 border-ccc w-full mr-10"
+                placeholder="m@k.sa"
+                disabled
+              />
+              <a href="#" class="c-blue">Change</a>
+            </div>
           </div>
           <!-- End General Info -->
 

@@ -55,11 +55,6 @@
 }
 /* End Position*/
 
-
-
-
-
-
 /* Start Padding */
 .p-0 {
   padding: 0;
@@ -243,6 +238,12 @@
 }
 .radius-10 {
   border-radius: 10px;
+}
+.border-none {
+  border: none;
+}
+.border-ccc {
+  border: 1px solid #ccc;
 }
 /* End Border */
 
