@@ -7,7 +7,7 @@ This project introduces a custom CSS utility framework built from scratch, inspi
 ---
 
 ## 🌐 Live Demo
-🔗 https://mkandil4.github.io/Template-4-Dashboard/
+🔗  https://mkandil4.github.io/responsive-admin-dashboard/
 
 ---
 
