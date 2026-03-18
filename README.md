@@ -48,7 +48,7 @@ This project follows a **Framework Thinking approach**:
 ---
 
 ## 📁 Project Structure
-Template-4-Dashboard/
+responsive-admin-dashboard/
 │── index.html
 │── css/
 │ ├── framework.css
