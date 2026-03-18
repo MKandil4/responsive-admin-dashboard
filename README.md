@@ -21,7 +21,7 @@ This project introduces a custom CSS utility framework built from scratch, inspi
 ---
 
 ## 📸 Preview
-![Dashboard Screenshot](./screenshot.png)
+![Dashboard](./assets/screenshot.png)
 
 ---
 
