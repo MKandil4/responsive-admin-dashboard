@@ -1,89 +1,71 @@
-# 🚀 Template Four - Dashboard (Kandil)
+# 🚀 Responsive Dashboard UI
 
-This is a modern, responsive Admin Dashboard built as a front-end practice project.
-The project focuses on layout architecture, utility-based CSS framework design, and scalable UI structure.
-Unlike previous templates, this project introduces a custom utility framework built from scratch, inspired by modern CSS systems like Bootstrap and Tailwind.
+A modern, responsive Admin Dashboard built using HTML & CSS, focusing on scalable UI structure and reusable design systems.
 
-# 🛠 Built With
-
-✔️ HTML
-
-✔️ CSS
-
-✔️ Custom Utility Framework (Built From Scratch)
+This project introduces a custom CSS utility framework built from scratch, inspired by modern frameworks like Bootstrap and Tailwind.
 
 ---
 
-## 🎯 Key Features & Concepts Practiced
+## 🌐 Live Demo
+🔗 https://mkandil4.github.io/Template-4-Dashboard/
 
-✔️ Semantic HTML structure for clean layout organization.
+---
 
-✔️ Fully responsive Admin Dashboard layout.
+## 🛠️ Technologies Used
+- HTML5
+- CSS3
+- Flexbox
+- CSS Grid
+- Custom Utility CSS Framework
 
-✔️ Custom-built CSS Utility Framework (spacing, display, colors, typography).
+---
 
-✔️ Flexbox-based layout system for structural alignment.
+## 📸 Preview
+![Dashboard Screenshot](./screenshot.png)
 
-✔️ Responsive utilities using organized media query layers.
+---
 
-✔️ Sidebar Navigation with collapsible mobile behavior.
-
-✔️ Fixed-width icons using Font Awesome (fa-fw) for clean alignment.
-
-✔️ Timeline / Progress component using CSS pseudo-elements.
-
-✔️ Animated UI feedback using CSS keyframes.
-
-✔️ Reusable utility classes for scalable design system thinking.
-
-✔️ Clean component separation between framework.css and master.css.
-
-✔️ Organized project structure for maintainability.
+## 🎯 Key Features
+- Fully responsive admin dashboard layout
+- Custom-built CSS utility framework
+- Clean and reusable UI components
+- Structured layout using Flexbox & Grid
+- Sidebar navigation with responsive behavior
+- Timeline and progress components using CSS
+- Animated UI interactions using keyframes
+- Scalable and maintainable CSS architecture
 
 ---
 
 ## 🧠 Architecture Approach
+This project follows a **Framework Thinking approach**:
 
-✔️ This project applies Framework Thinking
+- Utility Layer (spacing, colors, typography)
+- Responsive Utility System
+- Component-Based Styling
+- Reusable Layout Patterns
 
-✔️ Base Utilities (spacing, colors, typography)
-
-✔️ Responsive Utility Layer
-
-✔️ Component Styling Layer
-
-✔️ Reusable Layout Patterns
-
-✔️ The custom framework system was designed to simulate real-world UI library behavior and improve scalable CSS architecture skills.
-
-----
-
-## 🌐 Live Preview
-🔗 https://mkandil4.github.io/Template-4-Dashboard/
-
-## 💻 Source Code
-🔗 https://github.com/MKandil4/Template-4-Dashboard
+---
 
 ## 📁 Project Structure
-
 Template-4-Dashboard/
-├── index.html
-├── css/
-│   ├── framework.css
-│   └── master.css
-├── images/
+│── index.html
+│── css/
+│ ├── framework.css
+│ └── master.css
+│── images/
 └── webfonts/
 
-----
+
+---
 
 ## 👤 Author
-**Mohamed Kandil**
+Mohamed Kandil  
 
-🔗 GitHub: https://github.com/MKandil4
+🔗 GitHub: https://github.com/MKandil4  
+🔗 LinkedIn: https://www.linkedin.com/in/mohamed-kandil4  
 
-🔗 LinkedIn: https://www.linkedin.com/in/mkandil4
-
-----
+---
 
 ## 💬 Feedback
-Feel free to open an issue or submit feedback — all suggestions are welcome! 🙌
+Feel free to share your feedback or suggestions 🙌
